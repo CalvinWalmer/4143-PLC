@@ -1,7 +1,7 @@
 package main
 
 import (
-	"example/A01/mascot"
+	"example/P01/mascot"
 	"fmt"
 
 	"rsc.io/quote"

@@ -1,7 +1,7 @@
 package mascot_test
 
 import (
-	"example/A01/mascot"
+	"example/P01/mascot"
 	"testing"
 )
 
