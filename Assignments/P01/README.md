@@ -1,34 +1,19 @@
-## P02 - Bouncy Balls
-### Sally Smith
+## P01 - Run a Go Program
+### Calvin Walmer
 ### Description:
 
-Bacon ipsum dolor amet pork loin kielbasa pork, drumstick leberkas shankle strip steak fatback beef ribs ham hock.
-Pork short ribs doner andouille cupim pastrami picanha landjaeger pig. Salami swine capicola spare ribs boudin
-leberkas. Capicola ground round pork meatloaf, ham jowl swine prosciutto bacon alcatra pancetta burgdoggen pig
-spare ribs leberkas. Shankle fatback ground round, porchetta frankfurter cupim venison strip steak pig meatball
-biltong filet mignon. Shoulder chislic ground round pork burgdoggen hamburger.
+This program was created by following a tutorial about how to get started with developing in Go. The program contains a
+package that returns a mascot while the main driver code calls the packages and checks to see what is in there.
+
 
 ### Files
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | Main.py         | Main driver of my project that launches game.      |
-|   2   | HelperClass.py  | Helper class that holds movement functions         |
-|   3   | TextureClass.py | Helper class that assists with textures and images |
+|   1   | main.go         | Main driver of my project that imports and uses functions from the img_mod package      |
+|   2   | go.mod | A manifest defining my projects' dependencies,     |
+|   3   | go.sum|  Contains cryptographic hashes of specific module versions defined in go.mod |
+|   4   | mascot/mascot.go | Returns a hardcoded mascot |
+|   5   | mascot/mascot_test.go | Showcase of Go's tests. Checks to see if the best mascot is correct... |
 
-### Instructions
 
-- Make sure you install library `blahblah.py`
-- My program expects two parameters to be placed on the command line when you run the program.
-- Parameters `<input file> <number of players>`
-- The input file should be formatted with a players name and age on a seperate line:
-
-+------------+
-| name1 age1 |
-| name2 age2 |
-| etc...     |
-+------------+
-
-- Example Command:
-    - `python <code> <input file> <num players>`
-    - `python main.py input.txt 3`
