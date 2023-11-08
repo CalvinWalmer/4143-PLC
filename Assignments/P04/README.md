@@ -21,6 +21,7 @@ By comparing the time taken to download images sequentially vs. concurrently, be
 5 images were downloaded using each method.
 
 | Links |
+|:--:|
 | https://stocksnap.io/photo/scenic-snowy-MIDRMSZGTG |
 | https://unsplash.com/photos/black-and-gray-cruiser-motorcycle-parked-beside-black-concrete-building-2LTMNCN4nEg |
 |	https://unsplash.com/photos/blue-and-yellow-plastic-blocks-HpMihL323k0 |
