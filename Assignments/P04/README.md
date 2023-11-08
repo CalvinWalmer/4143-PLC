@@ -17,7 +17,8 @@ By comparing the time taken to download images sequentially vs. concurrently, be
 |4 - 14 | x... | Images downloaded with the program. C = Concurrent, S = Sequential |
 
 ### Results
-
+Sequential download took: 1.857319 seconds
+Concurrent download took: 635.8417 milliseconds
 5 images were downloaded using each method.
 
 | Links |
@@ -28,5 +29,3 @@ By comparing the time taken to download images sequentially vs. concurrently, be
 |	https://unsplash.com/photos/a-night-sky-filled-with-lots-of-stars-fxrwJGMCz_g |
 |	https://www.shopify.com/stock-photos/photos/art-gallery-interior?q=interior |
 
-Sequential download took: 1.857319s
-Concurrent download took: 635.8417ms
