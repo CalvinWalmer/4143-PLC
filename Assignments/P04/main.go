@@ -13,7 +13,7 @@ import (
 // Sequential version of the image downloader.
 func downloadImagesSequential(urls []string) {
 	for i := 0; i < len(urls); i++ {
-		downloadImage(urls[i], "S"+strconv.Itoa(i)+"-"+time.Now().Format("20060102150405.000000000")+".jpg")
+		downloadImage(urls[i], "xS"+strconv.Itoa(i)+"-"+time.Now().Format("20060102150405.000000000")+".jpg")
 	}
 }
 
@@ -28,7 +28,7 @@ func downloadImagesConcurrent(urls []string) {
 
 		go func() {
 			defer wg.Done()
-			downloadImage(urls[i], "C"+strconv.Itoa(i)+"-"+time.Now().Format("20060102150405.000000000")+".jpg")
+			downloadImage(urls[i], "xC"+strconv.Itoa(i)+"-"+time.Now().Format("20060102150405.000000000")+".jpg")
 		}()
 	}
 
@@ -37,10 +37,11 @@ func downloadImagesConcurrent(urls []string) {
 
 func main() {
 	urls := []string{
-		"https://unsplash.com/photos/hvdnff_bieQ/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
-		"https://unsplash.com/photos/HQaZKCDaax0/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
-		"https://images.unsplash.com/photo-1698778573682-346d219402b5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=640",
-		"https://unsplash.com/photos/Bs2jGUWu4f8/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
+		"https://stocksnap.io/photo/scenic-snowy-MIDRMSZGTG",
+		"https://unsplash.com/photos/black-and-gray-cruiser-motorcycle-parked-beside-black-concrete-building-2LTMNCN4nEg",
+		"https://unsplash.com/photos/blue-and-yellow-plastic-blocks-HpMihL323k0",
+		"https://unsplash.com/photos/a-night-sky-filled-with-lots-of-stars-fxrwJGMCz_g",
+		"https://www.shopify.com/stock-photos/photos/art-gallery-interior?q=interior",
 	}
 
 	// Sequential download

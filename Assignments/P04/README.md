@@ -1,2 +1,2 @@
-Sequential download took: 721.0685ms
-Concurrent download took: 337.8986ms
+Sequential download took: 1.857319s
+Concurrent download took: 635.8417ms
