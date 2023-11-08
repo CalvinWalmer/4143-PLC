@@ -17,9 +17,9 @@ By comparing the time taken to download images sequentially vs. concurrently, be
 |4 - 14 | x... | Images downloaded with the program. C = Concurrent, S = Sequential |
 
 ### Results
-Sequential download took: 1.857319 seconds
-Concurrent download took: 635.8417 milliseconds
-5 images were downloaded using each method.
+Sequential download took: 1.857319 seconds  
+Concurrent download took: 635.8417 milliseconds  
+5 images were downloaded using each method.  
 
 | Links |
 |:--|
