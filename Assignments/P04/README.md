@@ -1,2 +1,18 @@
 Sequential download took: 1.857319s
 Concurrent download took: 635.8417ms
+## P04 - Concurrent Image Downloader
+### Calvin Walmer
+### Description:
+
+The goal of this assignment is to understand and implement basic concurrency in Go.
+This program concurrently downloads a set of images from given URLs and saves them to disk.
+By comparing the time taken to download images sequentially vs. concurrently, benefits of concurrency for I/O-bound tasks are observed.
+
+### Files
+
+|   #   | File            | Description                                        |
+| :---: | --------------- | -------------------------------------------------- |
+|   1   | README.md        | Summary, function, and goals of the program    |
+|   2   | go.mod  | A manifest defining my projects' dependencies        |
+|   3   | main.go | Main driver of my project that downloads images sequentially and concurrently |
+|4 - 14 | x... | Images downloaded with the program. C = Concurrent, S = Sequential |
