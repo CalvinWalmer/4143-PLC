@@ -37,11 +37,11 @@ func downloadImagesConcurrent(urls []string) {
 
 func main() {
 	urls := []string{
-		"https://stocksnap.io/photo/scenic-snowy-MIDRMSZGTG",
-		"https://unsplash.com/photos/black-and-gray-cruiser-motorcycle-parked-beside-black-concrete-building-2LTMNCN4nEg",
-		"https://unsplash.com/photos/blue-and-yellow-plastic-blocks-HpMihL323k0",
-		"https://unsplash.com/photos/a-night-sky-filled-with-lots-of-stars-fxrwJGMCz_g",
-		"https://www.shopify.com/stock-photos/photos/art-gallery-interior?q=interior",
+		"https://images.pexels.com/photos/3509410/pexels-photo-3509410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+		"https://images.unsplash.com/photo-1570284613060-766c33850e00?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1575470522418-b88b692b8084?q=80&w=3288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1559289431-9f12ee08f8b6?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		"https://images.unsplash.com/photo-1496354265829-17b1c7b7c363?q=80&w=1454&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 	}
 
 	// Sequential download
